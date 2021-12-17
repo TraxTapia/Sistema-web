@@ -1,0 +1,6 @@
+C:\Users\ivan.tapia\source\repos\SISTEMAWEBVENTAS\TRAX.Models.Web\bin\Debug\TRAX.Models.Web.dll
+C:\Users\ivan.tapia\source\repos\SISTEMAWEBVENTAS\TRAX.Models.Web\bin\Debug\TRAX.Models.Web.pdb
+C:\Users\ivan.tapia\source\repos\SISTEMAWEBVENTAS\TRAX.Models.Web\obj\Debug\TRAX.Models.Web.csproj.AssemblyReference.cache
+C:\Users\ivan.tapia\source\repos\SISTEMAWEBVENTAS\TRAX.Models.Web\obj\Debug\TRAX.Models.Web.csproj.CoreCompileInputs.cache
+C:\Users\ivan.tapia\source\repos\SISTEMAWEBVENTAS\TRAX.Models.Web\obj\Debug\TRAX.Models.Web.dll
+C:\Users\ivan.tapia\source\repos\SISTEMAWEBVENTAS\TRAX.Models.Web\obj\Debug\TRAX.Models.Web.pdb

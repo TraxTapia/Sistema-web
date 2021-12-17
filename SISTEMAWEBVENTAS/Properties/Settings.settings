@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SISTEMAWEBVENTAS.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="conexionSQL" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Data Source=(localDB)\localDBDemo;Initial Catalog=DBVENTAS_WEB;Integrated Security=True</Value>
+    </Setting>
+    <Setting Name="PathLog" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Log/Log.txt</Value>
+    </Setting>
+    <Setting Name="webApiTrax" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://localhost:44338</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

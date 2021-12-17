@@ -1,0 +1,36 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>--SISTEMA WEB TRAX--</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="~/Content/styleLogin.css" rel="stylesheet" id="bootstrap-css">
+    @*<link href="~/Content/Plugins/sweetalert2/css/sweetalert.css" rel="stylesheet" id="bootstrap-css">*@
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="~/Scripts/LoginStyle.js"></script>
+    @*<script src="~/Content/Plugins/sweetalert2/js/sweetalert.js"></script>*@
+    <script src="~/Scripts/sweetalert.min.js"></script>
+    <script src="~/Scripts/moment.min.js"></script>
+    <script src="~/ViewsScripts/Login/Index.js"></script>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Styles.Render("~/Content/PluginsCSS")
+    @RenderSection("estilos", required: false)
+</head>
+<body>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p> - SISTEMA WEB TRAX - &copy; @DateTime.Now.Year </p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

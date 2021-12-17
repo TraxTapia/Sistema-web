@@ -1,0 +1,36 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+
+
+}
+
+
+<div class="container">
+    <div class="card card-container">
+        <img id="profile-img" class="profile-img-card" src="~/Content/images/login.png" />
+        <p id="profile-name" class="profile-name-card"></p>
+
+        <form action="@Url.Content("~/Login/Index")" method="post" class="form-signin">
+            <span id="reauth-email" class="reauth-email"></span>
+            <input type="email" id="inputEmail" name="correo" class="form-control" placeholder="Correo Electrónico" value="admin@gmail.com" autofocus>
+            <input type="password" id="inputPassword" name="clave" class="form-control" value="admin@gmail.com" placeholder="Contraseña">
+
+            @if (ViewBag.Error != null)
+            {
+                <div class="alert alert-danger">
+                    @ViewBag.Error
+                </div>
+            }
+            <div id="remember" class="checkbox">
+                <label>
+                    <input type="checkbox" value="remember-me"> Remember me
+                </label>
+            </div>
+            <button class="btn btn-primary" type="submit">Iniciar sesión</button>
+        </form><!-- /form -->
+        <a href="#" class="forgot-password">
+            Forgot the password?
+        </a>
+    </div><!-- /card-container -->
+</div><!-- /container -->

@@ -1,0 +1,54 @@
+﻿
+@{
+    ViewBag.Title = "Usuarios";
+    string url = @Url.Action("addUsers", "Usuarios");
+}
+<div class="jumbotron text-center">
+<h2 class="fuente"><i class="fa fa-web"></i> BIENVENIDOS AL SISTEMA DE VENTAS WEB</h2>
+
+</div>
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <form id="frmNuevoUsuario" class="form-horizontal">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div id="divNombre" class="form-group">
+                            <label class="control-label" for="txtNombre">Nombre</label>
+                            <input tabindex="1" type="text" id="txtNombre" class="form-control" name="txtNombre" required>
+                        </div>
+                        <div id="divApellidoPaterno" class="form-group">
+                            <label class="control-label" for="txtApellidoPaterno">Apellido Paterno</label>
+                            <input tabindex="1" type="text" id="txtApellidoPaterno" class="form-control" name="txtApellidoPaterno" required>
+                        </div>
+                        <div id="divApellidoMaterno" class="form-group">
+                            <label class="control-label" for="txtApellidoMaterno">Apellido Materno</label>
+                            <input tabindex="1" type="text" id="txtApellidoMaterno" class="form-control" name="txtApellidoMaterno" required>
+                        </div>
+                        <div id="divIdRol" class="form-group">
+                            <label class="control-label" for="txtIdRol">Rol</label>
+                            <input tabindex="1" type="number" id="txtIdRol" class="form-control" name="txtIdRols" required>
+                        </div>
+                    </div>
+                </div>
+                <button tabindex="23" onclick="agregarUsuario();" id="btnGuardarRegistro" type="button" class="btn btn-sm btn-success animated fadeInUp">Guardar</button>
+
+            </form>
+
+        </div>
+    </div>
+</div>
+@section scripts{
+    <script src="~/ViewsScripts/Usuarios/Index.js"> </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            url = '@url';
+            console.log("la url es: ",url)
+
+        })
+
+    </script>
+    }
